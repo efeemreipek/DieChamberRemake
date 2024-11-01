@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Level4
   m_EditorClassIdentifier: 
   LevelMoves: 22
+  LevelInstruction: Some plates are different colored than your dice. Color changers
+    will change your dice color.
   CameraPosition: {x: -2.25, y: 7, z: -2}
   SpawnDataList:
   - ObjectType: 0

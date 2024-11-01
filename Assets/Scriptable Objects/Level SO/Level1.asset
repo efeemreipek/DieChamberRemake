@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Level1
   m_EditorClassIdentifier: 
   LevelMoves: 22
+  LevelInstruction: 
   CameraPosition: {x: 1, y: 7, z: -2}
   SpawnDataList:
   - ObjectType: 0

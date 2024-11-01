@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Level3
   m_EditorClassIdentifier: 
   LevelMoves: 21
+  LevelInstruction: Some plates need 2 matches. If the cable is not lit after the
+    first match, that means there is another match.
   CameraPosition: {x: 0, y: 7, z: -2.25}
   SpawnDataList:
   - ObjectType: 0

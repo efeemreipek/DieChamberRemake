@@ -16,6 +16,7 @@ public class UIManager : Singleton<UIManager>
 	public GameObject GameStartPanelGO;
 	public GameObject GameOverPanelGO;
 	public TextMeshProUGUI MoveAmountText;
+	public TextMeshProUGUI InstructionsText;
 	public Image RestartImage;
 	public Button PlayButton;
 	public Button QuitButton;
@@ -30,6 +31,7 @@ public class UIManager : Singleton<UIManager>
         PlayerMovement.OnMoveAmountChanged += PlayerMovement_OnMoveAmountChanged;
         LevelRestarter.OnLevelRestartProgress += LevelRestarter_OnLevelRestartProgress;
         LevelSpawner.OnGameEnded += LevelSpawner_OnGameEnded;
+        LevelSpawner.OnLevelLoaded += LevelSpawner_OnLevelLoaded;
     }
 
     private void OnDisable()
@@ -38,6 +40,7 @@ public class UIManager : Singleton<UIManager>
         PlayerMovement.OnMoveAmountChanged -= PlayerMovement_OnMoveAmountChanged;
         LevelRestarter.OnLevelRestartProgress -= LevelRestarter_OnLevelRestartProgress;
         LevelSpawner.OnGameEnded -= LevelSpawner_OnGameEnded;
+        LevelSpawner.OnLevelLoaded -= LevelSpawner_OnLevelLoaded;
     }
 
     private void Start()
@@ -48,6 +51,11 @@ public class UIManager : Singleton<UIManager>
 		MoveAmountText.gameObject.SetActive(false);
 
         EventSystem.current.SetSelectedGameObject(PlayButton.gameObject);
+    }
+
+    private void LevelSpawner_OnLevelLoaded(LevelSO level)
+    {
+        StartCoroutine(Instruction(level.LevelInstruction));
     }
 
     private void LevelSpawner_OnGameEnded()
@@ -73,12 +81,23 @@ public class UIManager : Singleton<UIManager>
 
     private void PlayerMovement_OnMoveAmountChanged(int obj)
     {
-        MoveAmountText.text = obj.ToString("D2");
+        MoveAmountText.text = $"REMAINING MOVES\r\n<size=180>{obj.ToString("D2")}</size>";
     }
 
     private void LevelRestarter_OnLevelRestartProgress(float obj)
     {
         RestartImage.fillAmount = obj;
+    }
+
+    private IEnumerator Instruction(string text)
+    {
+        InstructionsText.text = "";
+        yield return new WaitForSeconds(0.1f);
+        foreach(char c in text)
+        {
+            InstructionsText.text += c;
+            yield return new WaitForSeconds(0.01f);
+        }
     }
 
     public void Play()

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Level2
   m_EditorClassIdentifier: 
   LevelMoves: 17
+  LevelInstruction: Movers will move your dice without rolling and spending move.
   CameraPosition: {x: -1.5, y: 7, z: -2}
   SpawnDataList:
   - ObjectType: 0

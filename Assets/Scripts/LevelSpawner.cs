@@ -9,6 +9,7 @@ public class LevelSpawner : MonoBehaviour
 {
     public static event Action OnLevelRestarted;
     public static event Action OnGameEnded;
+    public static event Action<LevelSO> OnLevelLoaded;
 
     [SerializeField] private ObjectTypeSO objectTypeSO;
     [SerializeField] private Transform levelCreatorTransform;
@@ -134,6 +135,7 @@ public class LevelSpawner : MonoBehaviour
 
         StartCoroutine(SpawnObjects(levelGO, currentLevel.SpawnDataList));
 
+        //OnLevelLoaded?.Invoke(currentLevel);
         Debug.Log($"{currentLevel} is loaded");
     }
 
@@ -227,6 +229,9 @@ public class LevelSpawner : MonoBehaviour
         plateControllerGO.transform.localPosition = Vector3.zero; 
         plateControllerGO.transform.SetParent(parent.transform);
         plateControllerGO.AddComponent<PlateController>();
+
+
+        OnLevelLoaded?.Invoke(currentLevel);
     }
 
     public void ClearLevel()

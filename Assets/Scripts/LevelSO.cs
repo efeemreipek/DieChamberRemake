@@ -7,6 +7,7 @@ using System.Linq;
 public class LevelSO : ScriptableObject
 {
 	public int LevelMoves;
+	[TextArea(2,5)] public string LevelInstruction;
 	public Vector3 CameraPosition;
 	public List<SpawnData> SpawnDataList = new List<SpawnData>();
 
