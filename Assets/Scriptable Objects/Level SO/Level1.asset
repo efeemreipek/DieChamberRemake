@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2363f8d9ad92b664bb703eb598cbac18, type: 3}
   m_Name: Level1
   m_EditorClassIdentifier: 
-  LevelMoves: 30
+  LevelMoves: 22
   CameraPosition: {x: 1, y: 7, z: -2}
   SpawnDataList:
   - ObjectType: 0
@@ -24,6 +24,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 0, y: 0, z: 0}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -33,6 +34,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 1, y: 0, z: 0}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -42,6 +44,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 0, y: 0, z: 1}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -51,6 +54,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 1, y: 0, z: 1}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -60,6 +64,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 2, y: 0, z: 1}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -69,6 +74,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 0, y: 0, z: 2}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -78,6 +84,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 1, y: 0, z: 2}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -87,6 +94,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 2, y: 0, z: 2}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -96,6 +104,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: -1, y: 0, z: 3}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -105,6 +114,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 0, y: 0, z: 3}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -114,6 +124,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 1, y: 0, z: 3}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -123,6 +134,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 2, y: 0, z: 3}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -132,6 +144,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 3, y: 0, z: 3}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -141,6 +154,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: -2, y: 0, z: 4}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -150,6 +164,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: -1, y: 0, z: 4}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -159,6 +174,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 0, y: 0, z: 4}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -168,6 +184,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 1, y: 0, z: 4}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -177,6 +194,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 2, y: 0, z: 4}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -186,6 +204,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 3, y: 0, z: 4}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -195,6 +214,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: -1, y: 0, z: 5}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -204,6 +224,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 0, y: 0, z: 5}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -213,6 +234,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 1, y: 0, z: 5}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -222,6 +244,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 2, y: 0, z: 5}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -231,6 +254,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 3, y: 0, z: 5}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -240,6 +264,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 0, y: 0, z: 6}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -249,6 +274,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 1, y: 0, z: 6}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -258,6 +284,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 0
     Position: {x: 2, y: 0, z: 6}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -267,6 +294,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 6
     Position: {x: 0.5, y: 1.5, z: -0.5}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -276,6 +304,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 3
     Position: {x: 3.4999993, y: 2, z: 3.0000017}
     Rotation: {x: -0, y: 0.7071071, z: -0, w: 0.7071065}
@@ -285,6 +314,7 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 2
     Position: {x: 1, y: 1.01, z: 1.5}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -300,15 +330,17 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 1
     Position: {x: 1.5, y: 1.01, z: 1.5}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
     Scale: {x: 1, y: 1, z: 1}
     CablePoints: []
     PlateReferences:
-      ValuesList: 03000000
+      ValuesList: 06000000
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 2100000, guid: 03aee742965ce4d4c9d5a5682afd6e8b, type: 2}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 2
     Position: {x: 1, y: 1.01, z: 3.5}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -322,15 +354,17 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 1
     Position: {x: 0.5, y: 1.01, z: 3.5}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
     Scale: {x: 1, y: 1, z: 1}
     CablePoints: []
     PlateReferences:
-      ValuesList: 03000000
+      ValuesList: 04000000
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 2100000, guid: 03aee742965ce4d4c9d5a5682afd6e8b, type: 2}
+    ColorChangerMaterial: {fileID: 0}
   - ObjectType: 7
     Position: {x: 0.5, y: 0, z: 0.5}
     Rotation: {x: -0, y: -0, z: -0, w: 1}
@@ -340,3 +374,4 @@ MonoBehaviour:
       ValuesList: 
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 0}
+    ColorChangerMaterial: {fileID: 0}

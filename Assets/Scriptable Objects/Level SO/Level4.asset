@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2363f8d9ad92b664bb703eb598cbac18, type: 3}
   m_Name: Level4
   m_EditorClassIdentifier: 
-  LevelMoves: 34
+  LevelMoves: 22
   CameraPosition: {x: -2.25, y: 7, z: -2}
   SpawnDataList:
   - ObjectType: 0
@@ -386,7 +386,7 @@ MonoBehaviour:
     Scale: {x: 1, y: 1, z: 1}
     CablePoints: []
     PlateReferences:
-      ValuesList: 05000000
+      ValuesList: 06000000
       ConnectedCableGO: {fileID: 0}
       ColorMaterial: {fileID: 2100000, guid: b905ca708908fbe47a7449702e217710, type: 2}
     ColorChangerMaterial: {fileID: 0}
