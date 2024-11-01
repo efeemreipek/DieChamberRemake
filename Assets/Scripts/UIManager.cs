@@ -28,6 +28,7 @@ public class UIManager : Singleton<UIManager>
         PlayerMovement.OnMoveAmountZero += PlayerMovement_OnMoveAmountZero;
         PlayerMovement.OnMoveAmountChanged += PlayerMovement_OnMoveAmountChanged;
         LevelRestarter.OnLevelRestartProgress += LevelRestarter_OnLevelRestartProgress;
+        LevelSpawner.OnGameEnded += LevelSpawner_OnGameEnded;
     }
 
     private void OnDisable()
@@ -35,6 +36,7 @@ public class UIManager : Singleton<UIManager>
         PlayerMovement.OnMoveAmountZero -= PlayerMovement_OnMoveAmountZero;
         PlayerMovement.OnMoveAmountChanged -= PlayerMovement_OnMoveAmountChanged;
         LevelRestarter.OnLevelRestartProgress -= LevelRestarter_OnLevelRestartProgress;
+        LevelSpawner.OnGameEnded -= LevelSpawner_OnGameEnded;
     }
 
     private void Start()
@@ -43,6 +45,13 @@ public class UIManager : Singleton<UIManager>
 
         GameOverPanelGO.SetActive(false);
 		MoveAmountText.gameObject.SetActive(false);
+    }
+
+    private void LevelSpawner_OnGameEnded()
+    {
+        MoveAmountText.gameObject.SetActive(false);
+        BackgroundGO.SetActive(true);
+        GameStartPanelGO.SetActive(true);
     }
 
     private void PlayerMovement_OnMoveAmountZero()

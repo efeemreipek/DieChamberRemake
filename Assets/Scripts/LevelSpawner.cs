@@ -8,6 +8,7 @@ using System;
 public class LevelSpawner : MonoBehaviour
 {
     public static event Action OnLevelRestarted;
+    public static event Action OnGameEnded;
 
     [SerializeField] private ObjectTypeSO objectTypeSO;
     [SerializeField] private Transform levelCreatorTransform;
@@ -31,7 +32,7 @@ public class LevelSpawner : MonoBehaviour
 
     private void UIManager_OnGameStarted()
     {
-        LoadLevel(currentLevelIndex);
+        LoadLevel(0);
     }
 
     private void LevelRestarter_OnLevelRestarted()
@@ -141,6 +142,7 @@ public class LevelSpawner : MonoBehaviour
         if(currentLevelIndex == levelList.Count - 1)
         {
             Debug.Log("This is the last level");
+            OnGameEnded?.Invoke();
             return;
         }
 
