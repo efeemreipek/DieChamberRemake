@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7171125af29b6d4dbd26ed42b56d972, type: 3}
+  m_Name: Dice Side Config
+  m_EditorClassIdentifier: 
+  DiceSidesGOList:
+  - {fileID: 6693212244594712538, guid: 94a8c6c28f2270d458fe7e7dca858c52, type: 3}
+  - {fileID: 6559496233605829446, guid: 841896f8ea6d21a4b8f9598828bca571, type: 3}
+  - {fileID: 651246452719518636, guid: dad93974d1eaa41448bc9e58aa28df59, type: 3}
+  - {fileID: 8153775147233353175, guid: 87a3def6e303d4245bf814d5a45d6349, type: 3}
+  - {fileID: 6677486224478102771, guid: d8c85d3736df7d049b5239b2e224cc2a, type: 3}
+  - {fileID: 3793484144894195545, guid: 54d364c28fb526c4da7e59aaf0c02346, type: 3}
+  DiceMaterialList:
+  - {fileID: 2100000, guid: 03aee742965ce4d4c9d5a5682afd6e8b, type: 2}
+  - {fileID: 2100000, guid: b905ca708908fbe47a7449702e217710, type: 2}
+  - {fileID: 2100000, guid: 66e32b1d5ebd134408e9adb9d5835024, type: 2}
+  - {fileID: 2100000, guid: c8a3bb633cda23846b1060941ea59d89, type: 2}
+  - {fileID: 2100000, guid: 1ccef9dac8cb7f0478957838974aaece, type: 2}
+  CurrentDiceMaterial: {fileID: 2100000, guid: 03aee742965ce4d4c9d5a5682afd6e8b, type: 2}

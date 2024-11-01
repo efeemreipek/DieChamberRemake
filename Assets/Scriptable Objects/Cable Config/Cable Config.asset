@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97af07da6ffe3d741bb23a9f166d5447, type: 3}
+  m_Name: Cable Config
+  m_EditorClassIdentifier: 
+  OffMaterial: {fileID: 2100000, guid: 5017027659d021b41a28986700ac7336, type: 2}
+  OnMaterial: {fileID: 2100000, guid: 37be29ac844169e4bb6158d1b05588d6, type: 2}

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Plate
+  - Side
+  - GroundBlock
+  - MoveAmountText
+  - Dice
+  - Background
+  - GameOverPanel
+  - PlayAgainButton
+  - QuitButton
+  - RestartImage
+  - PlayButton
+  - QuitButton2
+  - GameStartPanel
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Obstacle
+  - Side
+  - Dice Helper
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
