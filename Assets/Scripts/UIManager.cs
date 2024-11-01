@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine.UI;
 using System;
 using PrimeTween;
+using UnityEngine.EventSystems;
 
 public class UIManager : Singleton<UIManager>
 {
@@ -45,6 +46,8 @@ public class UIManager : Singleton<UIManager>
 
         GameOverPanelGO.SetActive(false);
 		MoveAmountText.gameObject.SetActive(false);
+
+        EventSystem.current.SetSelectedGameObject(PlayButton.gameObject);
     }
 
     private void LevelSpawner_OnGameEnded()
@@ -52,6 +55,8 @@ public class UIManager : Singleton<UIManager>
         MoveAmountText.gameObject.SetActive(false);
         BackgroundGO.SetActive(true);
         GameStartPanelGO.SetActive(true);
+
+        EventSystem.current.SetSelectedGameObject(PlayButton.gameObject);
     }
 
     private void PlayerMovement_OnMoveAmountZero()
@@ -62,6 +67,8 @@ public class UIManager : Singleton<UIManager>
         GameOverPanelGO.SetActive(true);
 
         Tween.Scale(GameOverPanelGO.transform, 1f, 0.5f, startDelay: 0.25f);
+
+        EventSystem.current.SetSelectedGameObject(PlayAgainButton.gameObject);
     }
 
     private void PlayerMovement_OnMoveAmountChanged(int obj)
