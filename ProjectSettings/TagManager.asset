@@ -9,14 +9,6 @@ TagManager:
   - GroundBlock
   - MoveAmountText
   - Dice
-  - Background
-  - GameOverPanel
-  - PlayAgainButton
-  - QuitButton
-  - RestartImage
-  - PlayButton
-  - QuitButton2
-  - GameStartPanel
   layers:
   - Default
   - TransparentFX

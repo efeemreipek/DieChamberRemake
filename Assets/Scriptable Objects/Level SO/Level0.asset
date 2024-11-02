@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LevelMoves: 25
   LevelInstruction: Match the dice side and plate side.
-  CameraPosition: {x: 0.5, y: 7, z: -2}
+  CameraPosition: {x: -0.5, y: 7, z: -2}
   SpawnDataList:
   - ObjectType: 0
     Position: {x: 0, y: 0, z: 0}

@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using AYellowpaper.SerializedCollections;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif // UNITY_EDITOR
 using System;
 
 public class LevelSpawner : MonoBehaviour
@@ -55,6 +57,7 @@ public class LevelSpawner : MonoBehaviour
 
     public void CreateLevel()
     {
+#if UNITY_EDITOR
         LevelSO newLevel = ScriptableObject.CreateInstance<LevelSO>();
         AssetDatabase.CreateAsset(newLevel, $"Assets/Scriptable Objects/Level SO/Level{levelToCreateIndex}.asset");
         AssetDatabase.SaveAssets();
@@ -64,6 +67,7 @@ public class LevelSpawner : MonoBehaviour
         LoadLevel(levelToCreateIndex);
 
         Debug.Log(AssetDatabase.GetAssetPath(newLevel));
+#endif // UNITY_EDITOR
     }
 
     public void GetLevel()
@@ -119,6 +123,8 @@ public class LevelSpawner : MonoBehaviour
 
     private void LoadLevel(int index)
     {
+        Debug.Log("In LoadLevel function");
+
         if(currentLevel != null) ClearLevel();
 
         currentLevel = levelList[index];

@@ -15,7 +15,7 @@ MonoBehaviour:
   LevelMoves: 22
   LevelInstruction: Some plates are different colored than your dice. Color changers
     will change your dice color.
-  CameraPosition: {x: -2.25, y: 7, z: -2}
+  CameraPosition: {x: -2.75, y: 7, z: -2}
   SpawnDataList:
   - ObjectType: 0
     Position: {x: -6, y: 0, z: 0}

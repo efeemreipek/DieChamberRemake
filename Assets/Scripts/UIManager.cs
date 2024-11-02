@@ -104,7 +104,9 @@ public class UIManager : Singleton<UIManager>
 	{
 		BackgroundGO.SetActive(false);
         GameStartPanelGO.SetActive(false);
+        Debug.Log("Before OnGameStarted");
 		OnGameStarted?.Invoke();
+        Debug.Log("After OnGameStarted");
         MoveAmountText.gameObject.SetActive(true);
     }
 	public void Quit()
